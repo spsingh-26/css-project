@@ -1,0 +1,69 @@
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    margin-left: 280px;
+}
+header span{
+    color: cornflowerblue;
+}
+.head{
+    font-weight: 700;
+}
+.container{
+    background-color: rgb(233, 232, 232);
+    padding: 10px 110px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 900px;
+    margin: 0px auto;
+}
+
+.cards{
+    width: 220px;
+    height: 240px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: white;
+    margin: 5px;
+    border-radius: 20px;
+}
+.cards:hover{
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    
+}
+.cardHeads{
+    color: cornflowerblue;
+    font-size: 18px;
+    border-bottom: 2px solid grey;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.cardContent{
+    padding: 5px 20px;
+}
+.addtext{
+    padding: 10px 110px;
+    margin: 0px auto;
+    background-color: rgb(233, 232, 232);
+    text-align: right;
+    width: 900px;
+}
+.add{
+    text-align: right;
+    display: inline-block;
+}
+.btn{
+    font-size: 30px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    text-align: center;
+    color: wheat;
+}
+
+
+.add p{
+    font-weight: 700;
+}
